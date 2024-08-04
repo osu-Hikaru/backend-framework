@@ -1,4 +1,4 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
 export class Cover extends ClassModel {
     public custom_url: string = "";

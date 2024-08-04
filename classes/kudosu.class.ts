@@ -1,4 +1,4 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
 export class Kudosu extends ClassModel {
     private available: number = 0;

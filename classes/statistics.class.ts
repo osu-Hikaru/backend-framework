@@ -1,7 +1,7 @@
-import {ClassModel} from "./base.class";
-import {GradeCounts} from "./grade_counts.class";
-import {Level} from "./level.class";
-import {Rank} from "./rank.class";
+import {ClassModel} from "./base.class.js";
+import {GradeCounts} from "./grade_counts.class.js";
+import {Level} from "./level.class.js";
+import {Rank} from "./rank.class.js";
 
 export class Statistics extends ClassModel {
     public count_100: number = 0;

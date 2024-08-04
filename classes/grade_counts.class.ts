@@ -1,4 +1,4 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
 export class GradeCounts extends ClassModel {
     public a: number = 0;

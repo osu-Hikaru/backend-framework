@@ -1,6 +1,6 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
-import {Statistics} from "./statistics.class";
+import {Statistics} from "./statistics.class.js";
 
 export class StatisticsRulesets extends ClassModel {
     private osu: Statistics = new Statistics();

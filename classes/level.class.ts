@@ -1,4 +1,4 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
 export class Level extends ClassModel {
     public current: number = 0;

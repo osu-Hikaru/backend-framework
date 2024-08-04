@@ -1,4 +1,4 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
 export class RankHighest extends ClassModel {
     public rank: number = 0;

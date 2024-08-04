@@ -1,17 +1,17 @@
-import {ClassModel} from "./base.class";
+import {ClassModel} from "./base.class.js";
 
 export class Rank extends ClassModel {
-  public country: number = 0;
+    public country: number = 0;
 
-  constructor() {
-    super();
-  }
+    constructor() {
+        super();
+    }
 
-  getCountry(): number {
-    return this.country;
-  }
+    getCountry(): number {
+        return this.country;
+    }
 
-  setCountry(country: number): void {
-    this.country = country;
-  }
+    setCountry(country: number): void {
+        this.country = country;
+    }
 }
